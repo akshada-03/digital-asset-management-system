@@ -1,0 +1,11 @@
+# Uploaded files (don't push user files)
+uploads/*
+!uploads/.gitkeep
+
+# PHP config with passwords (security)
+config/db_backup.php
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
